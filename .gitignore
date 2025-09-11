@@ -1,0 +1,25 @@
+# Logs / caches
+*.log
+*.tmp
+*.cache
+.cache/
+__pycache__/
+*.pyc *.pyo
+
+# Virtual env / deps
+venv/ .venv/ .env
+node_modules/
+
+# Build artifacts
+build/ dist/ out/
+*.o *.so *.a *.exe *.dll
+*.bc *.bc.zstd *.ll *.s
+*.tar *.tar.* *.zip *.7z *.gz *.xz *.zst
+*.dSYM/
+
+# IDE / tooling
+.vscode/ .idea/ *.iml
+*.swp *.swo
+
+# Keys (절대 커밋 금지, 혹시 모르니 무시)
+*.pem *.key id_rsa id_ed25519 ssh_config
