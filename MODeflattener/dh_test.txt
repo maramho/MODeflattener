@@ -1,0 +1,57 @@
+-------------------------
+|    func : 0x1349    |
+-------------------------
+[DEBUG] 내가 넘긴 dispatcher = 0x1349
+[DEBUG] ✅ Found pre_dispatcher at: 0x1218
+[DEBUG] ✅ Extracted 2 relevant blocks after dispatcher.
+         → 0x1349
+         → 0x11ea
+[DEBUG] dispatcher map:
+  state 0x1ed4 -> 0x11ea
+  state 0x267b -> 0x12f8
+  state 0x2fad -> 0x12af
+  state 0x3ed4 -> 0x12cd
+  state 0x4e26 -> 0x1233
+  state 0x5908 -> 0x12da
+  state 0x9d22 -> 0x1316
+  state 0xb05b -> 0x12a2
+  state 0xd54b -> 0x1266
+  state 0xf01c -> 0x1248
+  state 0xf596 -> 0x1284
+  state 0x10681 -> 0x1323
+  state 0x136e2 -> 0x1226
+  state 0x1845a -> 0x1194
+[WARN] keeping tail JMP at 0x11ea; candidates=None
+[WARN] keeping tail JMP at 0x12f8; candidates=0x7bd9, 0x9d22
+[WARN] keeping tail JMP at 0x12af; candidates=0x3ed4, 0x713a
+[INFO] Direct JMP patch 0x12d5 → 0x1226 (len=5)
+[INFO] Direct JMP patch 0x122e → 0x1233 (len=5)
+[INFO] Direct JMP patch 0x1243 → 0x1248 (len=5)
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[WARN] keeping tail JMP at 0x12da; candidates=0x10681, 0x267b
+[INFO] Direct JMP patch 0x131e → 0x1226 (len=5)
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[INFO] Direct JMP patch 0x12aa → 0x1226 (len=5)
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[WARN] keeping tail JMP at 0x1266; candidates=0x2fad, 0xf596
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[WARN] keeping tail JMP at 0x1284; candidates=0x1ed4, 0xb05b
+[WARN] keeping tail JMP at 0x1323; candidates=0x1845a, 0x23ba
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[INFO] Direct JMP patch 0x11b2 → 0x1233 (len=5)
+[WARN] keeping tail JMP at 0x1248; candidates=0x5908, 0xd54b
+[SUMMARY] dispatcher cases: 14
+[SUMMARY] patches written: 6 direct jmps, 6 nops
+[+] Writing patch at 0x12d5: 5 bytes
+[+] Writing patch at 0x12cd: 8 bytes
+[+] Writing patch at 0x122e: 5 bytes
+[+] Writing patch at 0x1226: 8 bytes
+[+] Writing patch at 0x1243: 5 bytes
+[+] Writing patch at 0x123b: 8 bytes
+[+] Writing patch at 0x131e: 5 bytes
+[+] Writing patch at 0x1316: 8 bytes
+[+] Writing patch at 0x12aa: 5 bytes
+[+] Writing patch at 0x12a2: 8 bytes
+[+] Writing patch at 0x11b2: 5 bytes
+[+] Writing patch at 0x11aa: 8 bytes

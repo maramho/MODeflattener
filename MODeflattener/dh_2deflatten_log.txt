@@ -1,0 +1,430 @@
+[INFO] Architecture : x86_64
+[INFO] bin_base_addr: 0x0
+[INFO] found func @ 0x1ca8 (0)
+-------------------------
+|    func : 0x1ca8    |
+-------------------------
+[DEBUG] 내가 넘긴 dispatcher = 0x1ca8
+[DEBUG] ✅ Found pre_dispatcher at: 0x164c
+[DEBUG] ✅ Extracted 2 relevant blocks after dispatcher.
+         → 0x1ca8
+         → 0x1635
+[DEBUG] dispatcher map:
+  state 0x1d8 -> 0x1635
+  state 0x677 -> 0x1339
+  state 0xbf1 -> 0x126c
+  state 0xdae -> 0x1b69
+  state 0x1206 -> 0x1bd5
+  state 0x14ea -> 0x15ad
+  state 0x18e9 -> 0x1b5d
+  state 0x19e5 -> 0x1b25
+  state 0x1a3f -> 0x1541
+  state 0x1e9e -> 0x1c35
+  state 0x209a -> 0x1bc9
+  state 0x2105 -> 0x11c0
+  state 0x265f -> 0x18e9
+  state 0x28b9 -> 0x16d9
+  state 0x2a34 -> 0x19d1
+  state 0x2d81 -> 0x1379
+  state 0x3151 -> 0x14ed
+  state 0x36c7 -> 0x1b85
+  state 0x3c4a -> 0x11a0
+  state 0x3ecc -> 0x16a1
+  state 0x48cd -> 0x14d1
+  state 0x48d4 -> 0x1585
+  state 0x4c1f -> 0x1a75
+  state 0x4fa8 -> 0x15f1
+  state 0x5518 -> 0x1959
+  state 0x56ee -> 0x1921
+  state 0x5754 -> 0x1509
+  state 0x5be6 -> 0x17f5
+  state 0x5dff -> 0x1579
+  state 0x5e7e -> 0x17a5
+  state 0x6176 -> 0x1a31
+  state 0x672d -> 0x1366
+  state 0x68ff -> 0x1839
+  state 0x6d87 -> 0x141a
+  state 0x7300 -> 0x181d
+  state 0x7396 -> 0x12b2
+  state 0x74f6 -> 0x1c85
+  state 0x7861 -> 0x143a
+  state 0x870c -> 0x1a15
+  state 0x8a3e -> 0x11f9
+  state 0x9088 -> 0x1479
+  state 0x9128 -> 0x1ab9
+  state 0xa65f -> 0x1981
+  state 0xad24 -> 0x193d
+  state 0xafd0 -> 0x19ed
+  state 0xb2c2 -> 0x15c9
+  state 0xb3d3 -> 0x18c1
+  state 0xb5b0 -> 0x16bd
+  state 0xc087 -> 0x155d
+  state 0xc0ee -> 0x166d
+  state 0xc3b2 -> 0x18cd
+  state 0xc684 -> 0x1695
+  state 0xc6ca -> 0x1407
+  state 0xc6d7 -> 0x1ac5
+  state 0xc7bf -> 0x1ae1
+  state 0xc800 -> 0x12e5
+  state 0xd2e9 -> 0x1239
+  state 0xda16 -> 0x160d
+  state 0xda31 -> 0x19c5
+  state 0xdc8b -> 0x15a1
+  state 0xe4ea -> 0x13b5
+  state 0xe631 -> 0x1761
+  state 0xe738 -> 0x1729
+  state 0xe7e3 -> 0x1bad
+  state 0xea99 -> 0x187d
+  state 0xec97 -> 0x1651
+  state 0xf10e -> 0x1679
+  state 0xf19c -> 0x18a5
+  state 0xf381 -> 0x1a9d
+  state 0x10232 -> 0x1c51
+  state 0x10dae -> 0x145f
+  state 0x10de1 -> 0x1789
+  state 0x11503 -> 0x1b41
+  state 0x11774 -> 0x16e5
+  state 0x11805 -> 0x13ed
+  state 0x11905 -> 0x1c5d
+  state 0x11b18 -> 0x1855
+  state 0x11ccb -> 0x19a9
+  state 0x11d42 -> 0x1a81
+  state 0x11ea8 -> 0x170d
+  state 0x1226b -> 0x1bfd
+  state 0x123c6 -> 0x1aed
+  state 0x12614 -> 0x19f9
+  state 0x13093 -> 0x198d
+  state 0x13175 -> 0x1b91
+  state 0x137f1 -> 0x1745
+  state 0x13982 -> 0x1965
+  state 0x13af0 -> 0x17cd
+  state 0x13dcf -> 0x1a4d
+  state 0x13df4 -> 0x1701
+  state 0x13e13 -> 0x1c79
+  state 0x13f29 -> 0x1619
+  state 0x14666 -> 0x1a59
+  state 0x14a3a -> 0x1525
+  state 0x1501a -> 0x1899
+  state 0x15db1 -> 0x11d9
+  state 0x15efb -> 0x13d1
+  state 0x16085 -> 0x129f
+  state 0x1609a -> 0x127f
+  state 0x16185 -> 0x17e9
+  state 0x16328 -> 0x1219
+  state 0x166c9 -> 0x14bf
+  state 0x16820 -> 0x1393
+  state 0x169ed -> 0x12ff
+  state 0x16a88 -> 0x124c
+  state 0x16ce1 -> 0x1905
+  state 0x16d57 -> 0x15e5
+  state 0x173f8 -> 0x1353
+  state 0x1743e -> 0x1b09
+  state 0x17742 -> 0x1811
+  state 0x1792b -> 0x12d2
+  state 0x17948 -> 0x1bf1
+  state 0x17b1c -> 0x1493
+  state 0x17c27 -> 0x177d
+  state 0x181c3 -> 0x1871
+  state 0x183a1 -> 0x17b1
+  state 0x1862b -> 0x1c19
+  state 0x18675 -> 0x131f
+[WARN] keeping tail JMP at 0x1635; candidates=0xec97, 0xf10e
+[INFO] Direct JMP patch 0x134e → 0x14bf (len=5)
+[INFO] Direct JMP patch 0x14cc → 0x14d1 (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x127a → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1b69; candidates=0x36c7, 0x677
+[WARN] keeping tail JMP at 0x1bd5; candidates=0x17948, 0x8a3e
+[WARN] keeping tail JMP at 0x15ad; candidates=0x4fa8, 0xb2c2
+[INFO] Direct JMP patch 0x1b64 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1b25; candidates=0x11503, 0xdae
+[WARN] keeping tail JMP at 0x1541; candidates=0x48d4, 0xc087
+[WARN] keeping tail JMP at 0x1c35; candidates=0x10232, 0x16085
+[INFO] Direct JMP patch 0x1bd0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x11d4 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x18e9; candidates=0x12614, 0x16ce1
+[INFO] Direct JMP patch 0x16e0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x19d1; candidates=0xafd0, 0xc800
+[INFO] Direct JMP patch 0x138e → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x14ed; candidates=0x11ea8, 0x5754
+[INFO] Direct JMP patch 0x1b8c → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x11bb → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x16a1; candidates=0x11774, 0xb5b0
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1585; candidates=0x17b1c, 0xdc8b
+[INFO] Direct JMP patch 0x1a7c → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x15f1; candidates=0x9088, 0xda16
+[INFO] Direct JMP patch 0x1960 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1921; candidates=0x13982, 0xad24
+[WARN] keeping tail JMP at 0x1509; candidates=0x13f29, 0x14a3a
+[WARN] keeping tail JMP at 0x17f5; candidates=0x17742, 0x6d87
+[INFO] Direct JMP patch 0x1580 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x17ac → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1a31; candidates=0x13dcf, 0xc6ca
+[INFO] Direct JMP patch 0x1374 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1839; candidates=0x11b18, 0xea99
+[INFO] Direct JMP patch 0x1435 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x181d; candidates=0x68ff, 0xf19c
+[INFO] Direct JMP patch 0x12cd → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1c85; candidates=0x15db1, 0xf91b
+[INFO] Direct JMP patch 0x145a → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1a15; candidates=0x14666, 0x6176
+[INFO] Direct JMP patch 0x1214 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x148e → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1ac0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1988 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x193d; candidates=0x5518, 0x7396
+[INFO] Direct JMP patch 0x19f4 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x15c9; candidates=0x16d57, 0x18675
+[INFO] Direct JMP patch 0x18c8 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x16bd; candidates=0x173f8, 0x28b9
+[WARN] keeping tail JMP at 0x155d; candidates=0x169ed, 0x5dff
+[INFO] Direct JMP patch 0x1674 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x18cd; candidates=0x123c6, 0x265f
+[INFO] Direct JMP patch 0x169c → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1415 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1ac5; candidates=0xc7bf, 0xd2e9
+[INFO] Direct JMP patch 0x1ae8 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x12fa → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1247 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1614 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x19cc → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x15a8 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x13cc → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1761; candidates=0x17c27, 0x672d
+[WARN] keeping tail JMP at 0x1729; candidates=0x137f1, 0x183a1
+[WARN] keeping tail JMP at 0x1bad; candidates=0x1609a, 0x209a
+[WARN] keeping tail JMP at 0x187d; candidates=0x10dae, 0x1501a
+[WARN] keeping tail JMP at 0x1651; candidates=0x11805, 0xc0ee
+[WARN] keeping tail JMP at 0x1679; candidates=0xc684, 0xe4ea
+[WARN] keeping tail JMP at 0x18a5; candidates=0x2105, 0xb3d3
+[WARN] keeping tail JMP at 0x1a9d; candidates=0x15efb, 0x9128
+[INFO] Direct JMP patch 0x1c58 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1474 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1789; candidates=0x5e7e, 0x7861
+[WARN] keeping tail JMP at 0x1b41; candidates=0x18e9, 0x2d81
+[WARN] keeping tail JMP at 0x16e5; candidates=0x13df4, 0x3c4a
+[INFO] Direct JMP patch 0x1402 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1c5d; candidates=0x13e13, 0x16328
+[WARN] keeping tail JMP at 0x1855; candidates=0x181c3, 0xbf1
+[WARN] keeping tail JMP at 0x19a9; candidates=0x16820, 0xda31
+[WARN] keeping tail JMP at 0x1a81; candidates=0xc6d7, 0xf381
+[WARN] keeping tail JMP at 0x170d; candidates=0x7300, 0xe738
+[WARN] keeping tail JMP at 0x1bfd; candidates=0x1862b, 0x74f6
+[WARN] keeping tail JMP at 0x1aed; candidates=0x1226b, 0x1743e
+[WARN] keeping tail JMP at 0x19f9; candidates=0x11d42, 0x870c
+[WARN] keeping tail JMP at 0x198d; candidates=0x11ccb, 0x2a34
+[WARN] keeping tail JMP at 0x1b91; candidates=0x1206, 0xe7e3
+[WARN] keeping tail JMP at 0x1745; candidates=0x10de1, 0xe631
+[WARN] keeping tail JMP at 0x1965; candidates=0x4a77, 0xa65f
+[WARN] keeping tail JMP at 0x17cd; candidates=0x16185, 0x1792b
+[INFO] Direct JMP patch 0x1a54 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1708 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1c80 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1619; candidates=0x1d8, 0x3ecc
+[WARN] keeping tail JMP at 0x1a59; candidates=0x16a88, 0x4c1f
+[WARN] keeping tail JMP at 0x1525; candidates=0x14ea, 0x1a3f
+[INFO] Direct JMP patch 0x18a0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x11f4 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x13e8 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x12ad → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x129a → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x17f0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1234 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x13b0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x131a → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1267 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1905; candidates=0x13093, 0x56ee
+[INFO] Direct JMP patch 0x15ec → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1361 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x1b09; candidates=0x13175, 0x19e5
+[INFO] Direct JMP patch 0x1818 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x12e0 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1bf8 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x14a1 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1784 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[INFO] Direct JMP patch 0x1878 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[WARN] keeping tail JMP at 0x17b1; candidates=0x13af0, 0x5be6
+[WARN] keeping tail JMP at 0x1c19; candidates=0x11905, 0x1e9e
+[INFO] Direct JMP patch 0x1334 → 0x14bf (len=5)
+[WARN] keeping tail JMP at 0x14d1; candidates=0x3151, 0xc3b2
+[SUMMARY] dispatcher cases: 118
+[SUMMARY] patches written: 59 direct jmps, 59 nops
+[+] Writing patch at 0x134e: 5 bytes
+[+] Writing patch at 0x1347: 7 bytes
+[+] Writing patch at 0x14cc: 5 bytes
+[+] Writing patch at 0x14c5: 7 bytes
+[+] Writing patch at 0x127a: 5 bytes
+[+] Writing patch at 0x1273: 7 bytes
+[+] Writing patch at 0x1b64: 5 bytes
+[+] Writing patch at 0x1b5d: 7 bytes
+[+] Writing patch at 0x1bd0: 5 bytes
+[+] Writing patch at 0x1bc9: 7 bytes
+[+] Writing patch at 0x11d4: 5 bytes
+[+] Writing patch at 0x11cd: 7 bytes
+[+] Writing patch at 0x16e0: 5 bytes
+[+] Writing patch at 0x16d9: 7 bytes
+[+] Writing patch at 0x138e: 5 bytes
+[+] Writing patch at 0x1387: 7 bytes
+[+] Writing patch at 0x1b8c: 5 bytes
+[+] Writing patch at 0x1b85: 7 bytes
+[+] Writing patch at 0x11bb: 5 bytes
+[+] Writing patch at 0x11b4: 7 bytes
+[+] Writing patch at 0x1a7c: 5 bytes
+[+] Writing patch at 0x1a75: 7 bytes
+[+] Writing patch at 0x1960: 5 bytes
+[+] Writing patch at 0x1959: 7 bytes
+[+] Writing patch at 0x1580: 5 bytes
+[+] Writing patch at 0x1579: 7 bytes
+[+] Writing patch at 0x17ac: 5 bytes
+[+] Writing patch at 0x17a5: 7 bytes
+[+] Writing patch at 0x1374: 5 bytes
+[+] Writing patch at 0x136d: 7 bytes
+[+] Writing patch at 0x1435: 5 bytes
+[+] Writing patch at 0x142e: 7 bytes
+[+] Writing patch at 0x12cd: 5 bytes
+[+] Writing patch at 0x12c6: 7 bytes
+[+] Writing patch at 0x145a: 5 bytes
+[+] Writing patch at 0x1453: 7 bytes
+[+] Writing patch at 0x1214: 5 bytes
+[+] Writing patch at 0x120d: 7 bytes
+[+] Writing patch at 0x148e: 5 bytes
+[+] Writing patch at 0x1487: 7 bytes
+[+] Writing patch at 0x1ac0: 5 bytes
+[+] Writing patch at 0x1ab9: 7 bytes
+[+] Writing patch at 0x1988: 5 bytes
+[+] Writing patch at 0x1981: 7 bytes
+[+] Writing patch at 0x19f4: 5 bytes
+[+] Writing patch at 0x19ed: 7 bytes
+[+] Writing patch at 0x18c8: 5 bytes
+[+] Writing patch at 0x18c1: 7 bytes
+[+] Writing patch at 0x1674: 5 bytes
+[+] Writing patch at 0x166d: 7 bytes
+[+] Writing patch at 0x169c: 5 bytes
+[+] Writing patch at 0x1695: 7 bytes
+[+] Writing patch at 0x1415: 5 bytes
+[+] Writing patch at 0x140e: 7 bytes
+[+] Writing patch at 0x1ae8: 5 bytes
+[+] Writing patch at 0x1ae1: 7 bytes
+[+] Writing patch at 0x12fa: 5 bytes
+[+] Writing patch at 0x12f3: 7 bytes
+[+] Writing patch at 0x1247: 5 bytes
+[+] Writing patch at 0x1240: 7 bytes
+[+] Writing patch at 0x1614: 5 bytes
+[+] Writing patch at 0x160d: 7 bytes
+[+] Writing patch at 0x19cc: 5 bytes
+[+] Writing patch at 0x19c5: 7 bytes
+[+] Writing patch at 0x15a8: 5 bytes
+[+] Writing patch at 0x15a1: 7 bytes
+[+] Writing patch at 0x13cc: 5 bytes
+[+] Writing patch at 0x13c5: 7 bytes
+[+] Writing patch at 0x1c58: 5 bytes
+[+] Writing patch at 0x1c51: 7 bytes
+[+] Writing patch at 0x1474: 5 bytes
+[+] Writing patch at 0x146d: 7 bytes
+[+] Writing patch at 0x1402: 5 bytes
+[+] Writing patch at 0x13fb: 7 bytes
+[+] Writing patch at 0x1a54: 5 bytes
+[INFO] PATCHING SUCCESSFUL for function @ 0x1ca8 (0.01 secs)
+
+[INFO] Deobfuscated file saved at './ll_file/cfg_dh_2flatten_binary_deflatten' (Total Time Taken : 0.54 secs)
+[+] Writing patch at 0x1a4d: 7 bytes
+[+] Writing patch at 0x1708: 5 bytes
+[+] Writing patch at 0x1701: 7 bytes
+[+] Writing patch at 0x1c80: 5 bytes
+[+] Writing patch at 0x1c79: 7 bytes
+[+] Writing patch at 0x18a0: 5 bytes
+[+] Writing patch at 0x1899: 7 bytes
+[+] Writing patch at 0x11f4: 5 bytes
+[+] Writing patch at 0x11ed: 7 bytes
+[+] Writing patch at 0x13e8: 5 bytes
+[+] Writing patch at 0x13e1: 7 bytes
+[+] Writing patch at 0x12ad: 5 bytes
+[+] Writing patch at 0x12a6: 7 bytes
+[+] Writing patch at 0x129a: 5 bytes
+[+] Writing patch at 0x1293: 7 bytes
+[+] Writing patch at 0x17f0: 5 bytes
+[+] Writing patch at 0x17e9: 7 bytes
+[+] Writing patch at 0x1234: 5 bytes
+[+] Writing patch at 0x122d: 7 bytes
+[+] Writing patch at 0x13b0: 5 bytes
+[+] Writing patch at 0x13a9: 7 bytes
+[+] Writing patch at 0x131a: 5 bytes
+[+] Writing patch at 0x1313: 7 bytes
+[+] Writing patch at 0x1267: 5 bytes
+[+] Writing patch at 0x1260: 7 bytes
+[+] Writing patch at 0x15ec: 5 bytes
+[+] Writing patch at 0x15e5: 7 bytes
+[+] Writing patch at 0x1361: 5 bytes
+[+] Writing patch at 0x135a: 7 bytes
+[+] Writing patch at 0x1818: 5 bytes
+[+] Writing patch at 0x1811: 7 bytes
+[+] Writing patch at 0x12e0: 5 bytes
+[+] Writing patch at 0x12d9: 7 bytes
+[+] Writing patch at 0x1bf8: 5 bytes
+[+] Writing patch at 0x1bf1: 7 bytes
+[+] Writing patch at 0x14a1: 5 bytes
+[+] Writing patch at 0x149a: 7 bytes
+[+] Writing patch at 0x1784: 5 bytes
+[+] Writing patch at 0x177d: 7 bytes
+[+] Writing patch at 0x1878: 5 bytes
+[+] Writing patch at 0x1871: 7 bytes
+[+] Writing patch at 0x1334: 5 bytes
+[+] Writing patch at 0x132d: 7 bytes

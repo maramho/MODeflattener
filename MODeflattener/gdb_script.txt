@@ -1,0 +1,18 @@
+# 📁 gdb_script.txt
+
+set pagination off
+break main                    # main 함수 진입 시 중단
+run                           # 프로그램 실행
+
+# 📍 주요 분기점에 대한 watchpoint 설정
+watch state                   # state 변수의 변경 감지
+commands                      # state 변경 시 실행할 명령어들
+    silent
+    printf "State changed to: %d at RIP: 0x%x\n", state, $rip
+    continue
+end
+
+# 📦 결과를 로그 파일로 저장
+set logging on
+continue
+

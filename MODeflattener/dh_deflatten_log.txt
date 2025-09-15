@@ -1,0 +1,132 @@
+[INFO] Architecture : x86_64
+[INFO] bin_base_addr: 0x0
+[INFO] found func @ 0x13ed (0)
+[INFO] PATCHING SUCCESSFUL for function @ 0x13ed (0.00 secs)
+
+[INFO] Deobfuscated file saved at './ll_file/cfg_dh_1flatten_binary_deflatten' (Total Time Taken : 0.21 secs)
+-------------------------
+|    func : 0x13ed    |
+-------------------------
+[DEBUG] 내가 넘긴 dispatcher = 0x13ed
+[DEBUG] ✅ Found pre_dispatcher at: 0x1279
+[DEBUG] ✅ Extracted 2 relevant blocks after dispatcher.
+         → 0x13ed
+         → 0x1265
+[DEBUG] dispatcher map:
+  state 0x7f1 -> 0x1265
+  state 0xaa5 -> 0x120f
+  state 0x1859 -> 0x1259
+  state 0x1eaa -> 0x11c4
+  state 0x2c1f -> 0x13c8
+  state 0x34fb -> 0x1384
+  state 0x426b -> 0x11b2
+  state 0x44c0 -> 0x1199
+  state 0x48c2 -> 0x135f
+  state 0x553f -> 0x13a2
+  state 0x7ab1 -> 0x1322
+  state 0x7b6b -> 0x11dd
+  state 0x7fd2 -> 0x1337
+  state 0x7fd5 -> 0x12b6
+  state 0x99a3 -> 0x136b
+  state 0xa0b8 -> 0x1240
+  state 0xdcae -> 0x134c
+  state 0xe17a -> 0x11f6
+  state 0xe4a3 -> 0x12c9
+  state 0xe78b -> 0x128a
+  state 0xf1ec -> 0x12dc
+  state 0x1189e -> 0x1234
+  state 0x129ca -> 0x1307
+  state 0x1353d -> 0x121b
+  state 0x145d1 -> 0x13b5
+  state 0x15ee4 -> 0x12f4
+  state 0x162fd -> 0x12e8
+  state 0x17198 -> 0x129d
+  state 0x1750c -> 0x127e
+[WARN] keeping tail JMP at 0x1265; candidates=0x1750c, 0xe78b
+[INFO] Direct JMP patch 0x1216 → 0x13b5 (len=5)
+[INFO] Direct JMP patch 0x13c3 → 0x13c8 (len=5)
+[INFO] Direct JMP patch 0x13cf → 0x1199 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x1260 → 0x129d (len=5)
+[WARN] keeping tail JMP at 0x129d; candidates=0x7fd5, 0xe4a3
+[WARN] keeping tail JMP at 0x11c4; candidates=0x1353d, 0x7b6b
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x139d → 0x136b (len=5)
+[WARN] keeping tail JMP at 0x136b; candidates=0x34fb, 0x553f
+[INFO] Direct JMP patch 0x11bf → 0x11c4 (len=5)
+[WARN] keeping tail JMP at 0x11c4; candidates=0x1353d, 0x7b6b
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x1366 → 0x136b (len=5)
+[WARN] keeping tail JMP at 0x136b; candidates=0x34fb, 0x553f
+[INFO] Direct JMP patch 0x13b0 → 0x13c8 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x1332 → 0x1337 (len=5)
+[INFO] Direct JMP patch 0x1347 → 0x1307 (len=5)
+[WARN] keeping tail JMP at 0x1307; candidates=0x7ab1, 0xdcae
+[WARN] keeping tail JMP at 0x11dd; candidates=0x15ee4, 0xe17a
+[WARN] keeping tail JMP at 0x1307; candidates=0x7ab1, 0xdcae
+[INFO] Direct JMP patch 0x12c4 → 0x12dc (len=5)
+[INFO] Direct JMP patch 0x12e3 → 0x12e8 (len=5)
+[INFO] Direct JMP patch 0x12ef → 0x13c8 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[WARN] keeping tail JMP at 0x136b; candidates=0x34fb, 0x553f
+[WARN] keeping tail JMP at 0x1240; candidates=0x1859, 0x7f1
+[INFO] Direct JMP patch 0x135a → 0x13c8 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[WARN] keeping tail JMP at 0x11f6; candidates=0x48c2, 0xaa5
+[INFO] Direct JMP patch 0x12d7 → 0x12dc (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x1298 → 0x12e8 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x123b → 0x13b5 (len=5)
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[WARN] keeping tail JMP at 0x1307; candidates=0x7ab1, 0xdcae
+[WARN] keeping tail JMP at 0x121b; candidates=0x1189e, 0xa0b8
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[INFO] Direct JMP patch 0x1302 → 0x1307 (len=5)
+[WARN] keeping tail JMP at 0x1307; candidates=0x7ab1, 0xdcae
+[WARN] keeping tail JMP at 0x1199; candidates=0x171b6, 0x426b
+[WARN] keeping tail JMP at 0x129d; candidates=0x7fd5, 0xe4a3
+[INFO] Direct JMP patch 0x1285 → 0x129d (len=5)
+[WARN] keeping tail JMP at 0x129d; candidates=0x7fd5, 0xe4a3
+[SUMMARY] dispatcher cases: 29
+[SUMMARY] patches written: 19 direct jmps, 19 nops
+[+] Writing patch at 0x1216: 5 bytes
+[+] Writing patch at 0x120f: 7 bytes
+[+] Writing patch at 0x13c3: 5 bytes
+[+] Writing patch at 0x13bc: 7 bytes
+[+] Writing patch at 0x13cf: 5 bytes
+[+] Writing patch at 0x13c8: 7 bytes
+[+] Writing patch at 0x1260: 5 bytes
+[+] Writing patch at 0x1259: 7 bytes
+[+] Writing patch at 0x139d: 5 bytes
+[+] Writing patch at 0x1396: 7 bytes
+[+] Writing patch at 0x11bf: 5 bytes
+[+] Writing patch at 0x11b8: 7 bytes
+[+] Writing patch at 0x1366: 5 bytes
+[+] Writing patch at 0x135f: 7 bytes
+[+] Writing patch at 0x13b0: 5 bytes
+[+] Writing patch at 0x13a9: 7 bytes
+[+] Writing patch at 0x1332: 5 bytes
+[+] Writing patch at 0x132b: 7 bytes
+[+] Writing patch at 0x1347: 5 bytes
+[+] Writing patch at 0x1340: 7 bytes
+[+] Writing patch at 0x12c4: 5 bytes
+[+] Writing patch at 0x12bd: 7 bytes
+[+] Writing patch at 0x12e3: 5 bytes
+[+] Writing patch at 0x12dc: 7 bytes
+[+] Writing patch at 0x12ef: 5 bytes
+[+] Writing patch at 0x12e8: 7 bytes
+[+] Writing patch at 0x135a: 5 bytes
+[+] Writing patch at 0x1353: 7 bytes
+[+] Writing patch at 0x12d7: 5 bytes
+[+] Writing patch at 0x12d0: 7 bytes
+[+] Writing patch at 0x1298: 5 bytes
+[+] Writing patch at 0x1291: 7 bytes
+[+] Writing patch at 0x123b: 5 bytes
+[+] Writing patch at 0x1234: 7 bytes
+[+] Writing patch at 0x1302: 5 bytes
+[+] Writing patch at 0x12fb: 7 bytes
+[+] Writing patch at 0x1285: 5 bytes
+[+] Writing patch at 0x127e: 7 bytes

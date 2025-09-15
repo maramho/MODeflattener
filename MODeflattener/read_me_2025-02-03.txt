@@ -1,0 +1,1 @@
+python3 modeflattener.py /home/dongho.lee/MODeflattener/MODeflattener/ll_file/cfg.O0.flatten_binary /home/dongho.lee/MODeflattener/MODeflattener/ll_file/deflattened_cfg.O0.flatten_binary > dh_test.txt

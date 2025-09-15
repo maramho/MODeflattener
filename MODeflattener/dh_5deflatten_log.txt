@@ -1,0 +1,6 @@
+[INFO] Architecture : x86_64
+[INFO] bin_base_addr: 0x0
+Traceback (most recent call last):
+  File "modeflattener.py", line 544, in <module>
+    ad = int(args.address, 0)
+ValueError: invalid literal for int() with base 0: '2F7DC'

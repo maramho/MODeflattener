@@ -1,0 +1,27 @@
+set logging file gdb_output.log
+set logging on
+file /home/dongho.lee/MODeflattener/MODeflattener/ll_file/cfg.O0.flatten_binary
+break *0x555555555150  
+run < input.txt
+
+# Flattening 특유의 패턴 감지
+disassemble main
+info registers
+
+# 특정 메모리 감시 (state 변수의 변경 감지)
+watch *(int*)0x7fffffffda94
+commands
+    silent
+    printf "📍 [DEBUG] state 변경 감지: %d (주소: %p)\n", *(int*)0x7fffffffda94, &(*(int*)0x7fffffffda94)
+    bt
+    info registers
+    continue
+end
+
+# JMP 명령어 분석
+find /b 0x555555555000, +0x500 jmp
+find /b 0x555555555000, +0x500 mov
+
+continue
+set logging offz
+quit

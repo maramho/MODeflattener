@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "modeflattener.py", line 582, in <module>
+    forg = open(args.filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './in.bin'
