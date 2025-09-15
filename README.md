@@ -14,7 +14,9 @@ python3 modeflattener.py ./ll_file/cfg_dh_flatten_binary ./ll_file/cfg_dh_2flatt
  cfg_dh_2flatten_binary_deflatten된 binary 생성 - > dh_2deflatten_log 로그 확인 
 
 여기 두개 파일 수정해서 이 두개 보면 됌
+
 MODeflattener/MODeflattener/modeflattener.py
+
 MODeflattener/MODeflattener/mod_utils.py
 
 
